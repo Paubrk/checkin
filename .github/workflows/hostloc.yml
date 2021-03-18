@@ -1,11 +1,11 @@
 name: Hostloc
 
 on: 
-  push:
-    branches:
-    - master
-  schedule:
-  - cron: 10 4 * * *
+#  push:
+#    branches:
+#    - master
+#  schedule:
+#  - cron: 10 4 * * *
 
 jobs:
   build:
